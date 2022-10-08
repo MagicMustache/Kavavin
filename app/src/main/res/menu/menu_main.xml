@@ -1,0 +1,58 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ch.milog.kavavin.MainActivity">
+
+    <item
+        android:id="@+id/sort_menu_item"
+        android:icon="@drawable/ic_baseline_sort_24"
+        android:title="sort"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/sort_by_name"
+                android:title="Trier par nom" />
+            <item
+                android:id="@+id/sort_by_year"
+                android:title="Trier par année" />
+            <item
+                android:id="@+id/sort_by_quantity"
+                android:title="Trier par quantité" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/filter_menu_item"
+        android:icon="@drawable/ic_baseline_filter_alt_24"
+        android:title="filter"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/filter_all"
+                app:showAsAction="always"
+                android:icon="@drawable/all_bottles_small"
+                android:title="Tout" />
+            <item
+                android:id="@+id/filter_wine"
+                android:icon="@drawable/wine_bottle"
+                android:title="Vin rouge" />
+            <item
+                android:id="@+id/filter_wine_white"
+                android:icon="@drawable/wine_bottle_white"
+                android:title="Vin blanc" />
+            <item
+                android:id="@+id/filter_champagne"
+                android:icon="@drawable/champagne_bottle"
+                android:title="Mousseux" />
+            <item
+                android:id="@+id/filter_other"
+                android:icon="@drawable/wine_bottle_other"
+                android:title="Autres" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom" />
+</menu>

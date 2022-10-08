@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#980F5A</color>
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="backgroundColor">#F2F2F7</color>
+    <color name="cardBackgroundColor">#FFFFFF</color>
+    <color name="graySecondaryTextColor">#8E8E93</color>
+    <color name="chipBackground">#333333</color>
+    <color name="appBarBackground">#8C5774</color>
+    <color name="avatarColor">#D1D1D6</color>
+    <color name="textColor">#000000</color>
+    <color name="textFieldColor">#FFFFFF</color>
+</resources>
